@@ -1,58 +1,55 @@
 body {
-    font-family: sans-serif;
-    background-color: rgb(110, 110, 110);
-    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:#EB6A00;
+    color: black;
+    margin: 0;
     text-align: center;
-}
-
-main{
-        font-size: 30px;
+    font-size: 25px;
 
 }
 
 header {
-    background-color:#190523;
+    background-color: #c76412;
+    height: 250px;
 }
 
-a{
-    background-color: blueviolet; 
-    color: white;
-    padding: 10px;
-    margin: 10px;
-    text-decoration: none;
-    border-radius: 25px;   
+.nav-link{
+    margin: 15px;
 }
 
 nav {
-    margin-top: 30px;
-    
-}
-
-.ssss{
-    background-color: #190523;
-    border: 3px double white;
-    height: 80px;
+ justify-content: space-between;   
 }
 
 .nav-link {
     text-decoration: none;
-    margin: 10px;
+    color: bisque;
+    background-color: rgb(71, 20, 20);
+    padding: 10px;
+    border-radius: 25px;
 }
 
+h1 {
+        text-align: center;
+}
 
 p {
     font-size: 20px;
 }
 
-.rr{
+.butttons {
     display: flex;
     justify-content: center;
 }
 
-.dd{
-   margin: 20px;
-   height: 450px;
-   
+.h{
+    text-decoration: none;
+    color: bisque;
+    background-color: rgb(71, 20, 20);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .article-but {
@@ -60,28 +57,41 @@ p {
 }
 
 footer {
-   background-color: #190523;
+   
 }
 
-.spisok{
-    margin-left: 200px;
-    margin-top: 70px;
+footer a {
+    
 }
 
-.inf{
-    background-color: #190523;
+.center{
     display: flex;
+    justify-content: center;
 }
-
-.logo {
-width: 133px;
+.logo{
+    width:300px ;
+    
 }
-
-article {
-    width: 600px;
-    background-color: #190523;
-}
-
-main {
+h2{
     text-align: center;
+}
+.colortext{
+ animation:color-change 3s infinite;
+}
+p{
+ display: flex;
+ justify-content: center;   
+}
+@keyframes color-change{
+    0%{color: blue;}
+    25%{ color: black;}
+    50%{color: white;}
+    100%{color: darkblue;}
+}
+u {
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    background-color: yellow;
 }
